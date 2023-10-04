@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-llama-wrapper",
+  "version": "1.0.0",
+  "description": "API Wrapper for llama.cpp",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node ./dist/test.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
+  }
+}
